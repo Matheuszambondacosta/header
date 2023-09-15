@@ -3,14 +3,18 @@
     justify-content: space-between;
     align-items: center;
     padding:40px;
-    height: 60px;
-    background-color: #5e5e5e;
+    height: 100px;
+    background-color:rgb(55, 55, 55);
     color: #dedede;
-    
-    
+
 }
 .links{
     display: flex;
     color: #dedede;
-    gap: 2rem;
+    gap: 20rem;
+   margin-right: 200px;
 }
+.img{
+    margin-left: 35px;
+}
+

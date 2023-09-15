@@ -5,11 +5,10 @@ export const Header = () => {
     return (
 
         <div className={styles.header}>
-            <Image className={styles.img} src={'/logo.png'} alt={'Octopus'} width={65} height={65} />   
+            <Image className={styles.img} src={'/logo.png'} alt={'Octopus'} width={75} height={75} />   
             <div className={styles.links}>
-                <NavLink rota={'/'} texto={'Index'} />
-                <NavLink rota={'/'} texto={'Sobre Nós'} />
-                <NavLink rota={'/'} texto={'Contato'} />
+                <NavLink rota={'/'} texto={'Home'} />
+                <NavLink rota={'/'} texto={'About'} />
                 <NavLink rota={'/teste'} texto={'Feedback'} />
             </div>
         </div>
